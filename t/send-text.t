@@ -14,7 +14,8 @@ isa_ok $providers, 'ARRAY';
 is scalar(@$providers), 8, '8 providers found';
 
 is_deeply $providers->[0], {
-    bell => 'Bell Canada',
+    id => 'bell',
+    name => 'Bell Canada',
 }, 'provider list has correct format';
 
 
