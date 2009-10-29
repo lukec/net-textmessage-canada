@@ -1,4 +1,5 @@
 package Net::TextMessage::Canada;
+use 5.006;
 use Moose;
 
 =head1 NAME
