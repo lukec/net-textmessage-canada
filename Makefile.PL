@@ -15,7 +15,7 @@ WriteMakefile1(
     'VERSION_FROM' => 'lib/Net/TextMessage/Canada.pm',
     'ABSTRACT_FROM' => 'lib/Net/TextMessage/Canada.pm',
     'AUTHOR'       => 'Luke Closs <cpan@5thplane.com>',
-    'LICENSE' => 'perl'
+    'LICENSE' => 'perl',
     'PREREQ_PM'    => {	
 	'Moose' => '0.89',
     },
