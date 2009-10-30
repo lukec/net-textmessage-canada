@@ -8,7 +8,7 @@ Net::TextMessage::Canada - determine the email address for a mobile phone
  
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
  
