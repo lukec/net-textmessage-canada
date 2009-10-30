@@ -33,6 +33,10 @@ email address to send them a text message.
 
 If this list becomes out of date, please send me updated details.
 
+=head2 IMPORTANT NOTE
+
+The functionality of the email-to-SMS gateway is carrier dependent.  That is to say: some carriers that appreciate you as a human being make it work seamlessly.  Other carriers that want to maximize their wallets may make receiving these messages expensive and awkward.  YMMV, IANAL, see store for details.
+
 =cut
  
 has 'provider_map' => (is => 'ro', isa => 'HashRef', lazy_build => 1);
